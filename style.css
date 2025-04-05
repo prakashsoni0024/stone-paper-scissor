@@ -79,3 +79,70 @@ img {
 
 }
 
+/* ............media query................. */
+@media (max-width: 768px) {
+    .choices {
+        
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .score-board {
+        
+        gap: 2rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 3rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 90px;
+        width: 90px;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        
+        
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+    }
+}
+
